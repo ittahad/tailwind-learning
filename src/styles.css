@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    a {
+        @apply text-green-500 underline;
+    }
+}
+
+@layer components {
+    .test-button {
+        @apply m-20 hover:bg-red-100 rounded-full border-4 border-red-900 border-opacity-30 shadow-lg bg-green-500 p-2 font-extrabold text-white;
+    }
+}
+
+@layer utilities {
+    .text-green-500 {
+        color: blue;
+    }
+}

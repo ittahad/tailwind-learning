@@ -1,38 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Tailwind</title>
     <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-    <div class="mx-auto w-40"> grid-flow-col </div>
-    <div class="grid grid-cols-4 grid-flow-row gap-x-2 gap-y-14 bg-yellow-500 w-auto"> 
-        <div class="h-20 w-20 bg-red-500 justify-self-end"> 1 </div>
-        <div class="h-20 w-20 bg-red-500 justify-self-end"> 2 </div>
-        <div class="h-20 w-20 bg-red-500 justify-self-end"> 3 </div>
-
-        <div class="h-20 bg-red-500 justify-self-stretch"> 4 </div>
-        <div class="h-20 bg-red-500"> 5 </div>
-        <div class="h-20 bg-red-500"> 6 </div>
-        
-        <div class="h-20 bg-red-500"> 7 </div>
-        <div class="h-20 bg-red-500"> 8 </div>
-        <div class="h-20 bg-red-500"> 9 </div>
+    <h1 class="text-green-500">This is a heading</h1>
+    <a href="blank">Click here</a>
+    <div class="group bg-red-50">
+        <p class="group-hover:font-extrabold">Hello</p>
+        <p class="group-hover:font-extrabold text-red-500">World</p>
     </div>
-    <div class="h-20"></div>
-    <div class="mx-auto w-40"> grid-flow-row </div>
-    <div class="grid grid-rows-2 grid-flow-col gap-4 bg-yellow-500 w-auto"> 
-        <div class="h-auto bg-red-500"> 1 </div>
-        <div class="h-20 bg-red-500"> 2 </div>
-        <div class="h-20 bg-red-500"> 3 </div>
+    <h1 class="2xl:text-8xl xl:text-4xl lg:text-xl 2xl:text-pink-500 xl:text-yellow-500 md:text-green-500 sm:text-purple-800">Heading</h1>
 
-        <div class="h-20 bg-red-500"> 4 </div>
-        <div class="h-20 bg-red-500"> 5 </div>
-        <div class="h-20 bg-red-500"> 6 </div>
-        
-        <div class="h-20 bg-red-500"> 7 </div>
-        <div class="h-20 bg-red-500"> 8 </div>
-        <div class="h-20 bg-red-500"> 9 </div>
+    <div class="flex justify-center">
+        <button class="test-button">
+            Click here
+        </button>
+    </div>
+    <div class="flex justify-center">
+        <button class="test-button">
+            Click here2
+        </button>
+    </div>
+    <div class="text-4xl italic font-extrabold text-center text-green-700 text-opacity-70 normal-case"> This is a
+        heading </div>
+    <div class="bg-blue-500 m-10 pt-10 pl-10">
+        <div class="bg-red-500 p-10">
+            This is a inner div
+        </div>
     </div>
 </body>
+
 </html>
