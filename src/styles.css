@@ -7,7 +7,7 @@
         @apply m-20 hover:bg-red-100 rounded-full border-4 border-red-900 border-opacity-30 shadow-lg bg-green-500 p-2 font-extrabold text-white;
     }
     .navbar-menu-item {
-        @apply pb-8 pt-3 h-12 text-lg text-gray-500 font-semibold hover:border-b-4 hover:border-b-green-500 hover:text-green-400 transition duration-300;
+        @apply pb-10 pt-3 h-14 text-lg text-gray-500 font-semibold hover:border-b-4 hover:border-b-green-500 hover:text-green-400 transition duration-300;
     }
 }
 
